@@ -16,17 +16,17 @@ Severity is how bad the bug is. Priority is how soon it should be fixed. Score t
 - Next: plan it for the following cycle.
 - Later: keep it on the list and look again when the list is reviewed.
 
-## The four corners
+## Severity and priority together
 
 - High severity, high priority: fix first. Example: checkout charges the wrong amount.
-- High severity, low priority: rare, so ask whether the severity is right. Example: a crash in a feature almost nobody uses.
-- Low severity, high priority: the one people forget. Example: the company name is misspelled on the home page the day before a launch.
-- Low severity, low priority: backlog. Example: a button is two pixels off in one browser.
+- High severity, low priority: rare, so ask whether the severity is right. Example: a crash in a feature few people use.
+- Low severity, high priority: the case people forget. Example: the company name is misspelled on the home page the day before a launch.
+- Low severity, low priority: backlog. Example: a button sits slightly out of line in an older browser.
 
 ## Settling a disagreement
 
 1. Does it lose data, money or trust? If yes, treat the severity as high, even when it is rare.
-2. How many people hit it, and how often? A bug in a path everyone uses outranks a bug in a path one person uses.
+2. How many people hit it, and how often? A bug in a path most people use outranks a bug in a path few people use.
 3. Is there a workaround that a user will find without help? If not, move it up.
 
 Write the answer in the ticket so the next person does not reopen the argument.

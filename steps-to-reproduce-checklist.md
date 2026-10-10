@@ -3,7 +3,7 @@
 Read each line and ask whether your steps pass.
 
 - They start somewhere a stranger can reach. Name the page, the screen or the command, and the account type if it matters.
-- Each step is one action. Number the steps so you can point at one.
+- Each action gets its own step. Number the steps so you can refer to a step by its number.
 - They use the real values: the promo code, the file name, the amount or the setting you used.
 - They include the waits and the clicks that are easy to forget, such as "wait for the list to load" or "close the dialog".
 - They end at the moment it goes wrong. Everything after it belongs in Actual.
